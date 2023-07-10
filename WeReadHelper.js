@@ -24,8 +24,9 @@
 
   // 功能1️⃣：宽屏
   $(function () {
-    $(".app_content").css("maxWidth", 1000);
-    $(".readerTopBar").css("display", "flex");
+    $(".app_content").css({ maxWidth: "60%", minWidth: "900px" });
+    $(".readerTopBar").css({ maxWidth: "60%", minWidth: "900px" });
+    $(".readerControls").css({ "margin-left": "0px", left: "85%" });
   });
 
   // 功能2️⃣：自动隐藏顶栏和侧边栏，上划显示，下滑隐藏
